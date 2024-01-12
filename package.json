@@ -4,7 +4,7 @@
   "scripts": {
     "reset": "npx rimraf ./**/node_modules",
     "dev": "modern dev",
-    "build": "modern build",
+    "build": "WEB_DOCTOR=true modern build",
     "start": "modern start",
     "serve": "modern serve",
     "new": "modern new",
@@ -25,23 +25,39 @@
     "dist/"
   ],
   "dependencies": {
-    "@modern-js/runtime": "2.42.2",
-    "react": "~18.2.0",
-    "react-dom": "~18.2.0"
+    "@byted-tiktok/tux-pc": "^0.5.28",
+    "@edenx/builder-plugin-web-doctor": "^1.45.0",
+    "@modern-js/plugin-tailwindcss": "2.45.0",
+    "@modern-js/runtime": "2.45.0",
+    "@tanstack/react-query": "^4.36.1",
+    "@tanstack/react-query-devtools": "^5.17.9",
+    "ahooks": "^3.7.8",
+    "react": "~17.0.2",
+    "react-dom": "~17.0.2",
+    "react-player": "^2.14.1",
+    "react-reverse-portal": "^2.1.1",
+    "react-spring": "^8.0.27",
+    "underscore": "^1.13.6",
+    "valtio": "^1.13.0",
+    "xgplayer": "^3.0.11"
   },
   "devDependencies": {
-    "@modern-js/app-tools": "2.42.2",
-    "@modern-js/eslint-config": "2.42.2",
-    "@modern-js/tsconfig": "2.42.2",
-    "@modern-js-app/eslint-config": "2.42.2",
-    "typescript": "~5.0.4",
+    "@modern-js-app/eslint-config": "2.45.0",
+    "@modern-js/app-tools": "2.45.0",
+    "@modern-js/builder-rspack-provider": "2.45.0",
+    "@modern-js/eslint-config": "2.45.0",
+    "@modern-js/tsconfig": "2.45.0",
     "@types/jest": "~29.2.4",
+    "@types/lodash": "4.14.202",
     "@types/node": "~16.11.7",
-    "@types/react": "~18.0.26",
-    "@types/react-dom": "~18.0.10",
+    "@types/react": "~17.0.74",
+    "@types/react-dom": "~17.0.25",
+    "@types/underscore": "latest",
+    "husky": "~8.0.1",
     "lint-staged": "~13.1.0",
     "prettier": "~2.8.1",
-    "husky": "~8.0.1",
-    "rimraf": "~3.0.2"
+    "rimraf": "~3.0.2",
+    "tailwindcss": "~3.3.3",
+    "typescript": "~5.0.4"
   }
 }
