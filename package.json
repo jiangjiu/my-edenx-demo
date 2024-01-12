@@ -25,8 +25,7 @@
     "dist/"
   ],
   "dependencies": {
-    "@byted-tiktok/tux-pc": "^0.5.28",
-    "@edenx/builder-plugin-web-doctor": "^1.45.0",
+
     "@modern-js/plugin-tailwindcss": "2.45.0",
     "@modern-js/runtime": "2.45.0",
     "@tanstack/react-query": "^4.36.1",
@@ -34,8 +33,8 @@
     "ahooks": "^3.7.8",
     "react": "~17.0.2",
     "react-dom": "~17.0.2",
-    "react-player": "^2.14.1",
-    "react-reverse-portal": "^2.1.1",
+
+
     "react-spring": "^8.0.27",
     "underscore": "^1.13.6",
     "valtio": "^1.13.0",
