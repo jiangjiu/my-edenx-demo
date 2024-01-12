@@ -25,6 +25,7 @@
     "dist/"
   ],
   "dependencies": {
+    "@byted-tiktok/tux-pc": "^0.5.28",
     "@modern-js/plugin-tailwindcss": "2.45.0",
     "@modern-js/runtime": "2.45.0",
     "@tanstack/react-query": "^4.36.1",
