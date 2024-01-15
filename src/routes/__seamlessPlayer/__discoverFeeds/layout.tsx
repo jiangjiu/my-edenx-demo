@@ -11,7 +11,7 @@ export default function Layout() {
   return (
     <main className={'border-8 border-amber-950 w-full p-4'}>
       <Tabs />
-      <div ref={routeContainerRef} className={'w-1/2'}></div>
+      <div ref={routeContainerRef} className={'w-[300px] h-[200px]'}></div>
       <Outlet />
       <div className={'border-2 border-amber-400'}>
         ====section开始==========

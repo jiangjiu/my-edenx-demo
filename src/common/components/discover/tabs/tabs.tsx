@@ -22,7 +22,7 @@ const tabsConfig = [
 
 export const Tabs: FC = memo(() => {
   return (
-    <div>
+    <div className={'flex'}>
       {tabsConfig.map(({ path, label }) => (
         <NavLink
           key={path}

@@ -10,7 +10,7 @@ const Index = memo(() => {
   });
   return (
     <div>
-      <div ref={routeContainerRef} className={'w-2/3'}></div>;
+      <div ref={routeContainerRef} className={'w-[1200px] h-[400px]'}></div>;
     </div>
   );
 });
